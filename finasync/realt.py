@@ -84,6 +84,8 @@ def get_realt_token_details(realt_token_contractAdress):
                         "propertyType": item.get("propertyType"),
                         "rentalType": item.get("rentalType"),
                         "productType": item.get("productType"),
+                        "constructionYear": item.get("constructionYear"),
+                        "bedroomBath": item.get("bedroomBath"),
                     }
                 }
             )
